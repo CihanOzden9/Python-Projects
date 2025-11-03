@@ -1,5 +1,7 @@
 import config as config
 import text_editor
+import os
+import sys
 
 def rules():
     print("""
@@ -15,6 +17,7 @@ def rules():
     """)
 
 def start():
+    os.system('cls' if os.name=="nt" else 'clear')
     print(text_editor.text("wordle game","white"))
     rules()
     ctrl = config.game_start()
