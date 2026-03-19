@@ -1,0 +1,65 @@
+# Python genel
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django dosyaları
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.env.*.local
+
+# Sanal ortamlar
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code ve IDE dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Migrations (isteğe bağlı)
+# Eğer migration dosyalarını version kontrolüne dahil etmek istemiyorsan aç:
+# */migrations/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+coverage.xml
+
+# build/dist dosyaları
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Pipenv
+Pipfile.lock
+
+# Docker (varsa)
+docker-compose.override.yml
